@@ -78,16 +78,16 @@ WSGI_APPLICATION = 'django_blog.wsgi.application'
 
 
 # Database
-mysql -hcontainers-us-west-162.railway.app -uroot -pOhqIu72aSqdwYeC1v5RM --port 6287 --protocol=TCP railway
+
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'railway',
-        'USER': 'ROOT',
-        'PASSWORD': 'pOhqIu72aSqdwYeC1v5RM',
-        'HOST': 'hcontainers-us-west-162.railway.app',
+        'USER': 'root',
+        'PASSWORD': 'OhqIu72aSqdwYeC1v5RM',
+        'HOST': 'containers-us-west-162.railway.app',
         'PORT': '6287',
 
 
