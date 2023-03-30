@@ -3,6 +3,7 @@ asgiref==3.2.3
 defusedxml==0.6.0
 diff-match-patch==20181111
 distlib==0.3.0
+dj-static==0.0.6
 Django==2.0.2
 django-3-jet==1.0.7
 django-ckeditor==5.9.0
@@ -21,10 +22,12 @@ odfpy==1.4.1
 openpyxl==3.0.3
 Pillow==7.1.2
 psycopg2==2.9.5
+PyMySQL==1.0.3
 pytz==2019.3
 PyYAML==5.3.1
 six==1.14.0
 sqlparse==0.3.0
+static3==0.7.0
 tablib==1.1.0
 virtualenv==20.0.18
 whitenoise==6.0.0
